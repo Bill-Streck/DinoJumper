@@ -31,7 +31,7 @@ Thanks for taking an interest in this project!
 
 ## Credits
 
-This project utilizes assets licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Proper attribution has been provided below:
+This project utilizes assets licensed under the MIT License as well as [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Proper attribution has been provided below:
 
 ### Art & Sprites
 - **Dino Family Character Sprites** by DemChing and ScissorMarks  
@@ -49,3 +49,11 @@ This project utilizes assets licensed under [Creative Commons Attribution 4.0 In
 - **Level Tileset** by [Designer Name]  
   Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
   Source: [Link to Tileset] -->
+
+### Graphics
+
+- **SmoothPixelFiltering** by CptPotato  
+Licensed under the MIT License
+Source: [GodotThings - SmoothPixelFiltering](https://github.com/CptPotato/GodotThings/tree/master/SmoothPixelFiltering)
+
+<!-- ### Additional Contributions (for other things like feedback or informal help -->
