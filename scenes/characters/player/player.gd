@@ -10,6 +10,9 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 var swimming = false # Denotes whether the character is in water
 
+var anim_control = preload("res://scripts/animation_dictionary.gd").new()
+var animations = anim_control.get_animations()
+
 func _ready():
 	print("Hi from the player!")
 	hide()
@@ -18,8 +21,13 @@ func start(pos):
 	screen_size = get_viewport_rect()
 	position = pos
 	
+	# Temporary demo of changing the texture
+	# TODO somehow eliminate or mark dinoes that are missing animations, or just debar them in selections
+	# TODO we do not need to dynamic load these (even though we could get away with it)
+	# we can just load them elsewhere
+	$idle.texture = animations["male"]["kuro"]["base"]["idle.png"]
+	
 	show()
-	#$AnimatedSprite2D.play("male_cole_idle")
 
 func _physics_process(delta):
 	# Add the gravity.

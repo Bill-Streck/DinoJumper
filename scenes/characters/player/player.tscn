@@ -12,7 +12,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/path = NodePath("idle:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -27,7 +27,7 @@ resource_name = "male_cole_idle"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/path = NodePath("idle:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -59,8 +59,36 @@ libraries = {
 }
 script = ExtResource("5_qd3e3")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="avoid" type="Sprite2D" parent="."]
+
+[node name="bite" type="Sprite2D" parent="."]
+
+[node name="dash" type="Sprite2D" parent="."]
+
+[node name="dead" type="Sprite2D" parent="."]
+
+[node name="hurt" type="Sprite2D" parent="."]
+
+[node name="idle" type="Sprite2D" parent="."]
 material = ExtResource("3_hss88")
 scale = Vector2(3, 3)
 texture = ExtResource("2_yfw8c")
 hframes = 3
+
+[node name="jump" type="Sprite2D" parent="."]
+
+[node name="kick" type="Sprite2D" parent="."]
+
+[node name="move" type="Sprite2D" parent="."]
+
+[node name="scan" type="Sprite2D" parent="."]
+
+[node name="egg_crack" type="Sprite2D" parent="."]
+
+[node name="egg_hatch" type="Sprite2D" parent="."]
+
+[node name="egg_move" type="Sprite2D" parent="."]
+
+[node name="ghost_idle" type="Sprite2D" parent="."]
+
+[node name="ghost_move" type="Sprite2D" parent="."]
