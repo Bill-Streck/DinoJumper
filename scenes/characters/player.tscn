@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://coqek23ty4jwf"]
 
-[ext_resource type="Script" path="res://scenes/characters/player.gd" id="1_yskah"]
-[ext_resource type="Shader" path="res://shaders/SmoothPixel.gdshader" id="2_wdjl8"]
+[ext_resource type="Script" uid="uid://drmslwecjcw2w" path="res://scenes/characters/player.gd" id="1_yskah"]
+[ext_resource type="Shader" uid="uid://b2tdk2oniii55" path="res://shaders/SmoothPixel.gdshader" id="2_wdjl8"]
 [ext_resource type="Texture2D" uid="uid://bs72bv34dpvid" path="res://sprites/dinos/male/cole/base/idle.png" id="2_yfw8c"]
 
 [sub_resource type="ConcavePolygonShape2D" id="ConcavePolygonShape2D_5bib7"]
